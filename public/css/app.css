@@ -1,0 +1,184 @@
+/* global styles */
+body {
+    background-color: #485f7a;
+}
+
+footer {
+    background-color: #81aad9;
+    border-radius: 20px;
+
+    border: 2px rgba(0, 0, 0, 0.2) solid;
+}
+/* end of global styles */
+
+/* id styles */
+
+/* end of id styles */
+
+/* class styles */
+
+.custom-border {
+    background-color: #81aad9;
+    border-radius: 20px;
+    border: 2px rgba(0, 0, 0, 0.2) solid;
+}
+
+.custom-border-bg {
+    background-color: #81aad9;
+}
+.cc-wrapper {
+    width: 95%;
+}
+
+.pagination .page-item {
+    background-color: #81aad9 !important;
+}
+
+/* add border, make background color */
+.navbar {
+    background-color: #81aad9;
+    border-radius: 20px;
+    border: 2px rgba(0, 0, 0, 0.2) solid;
+}
+.navbar ul {
+    background-color: #81aad9;
+}
+
+.dropdown-menu a:hover {
+    background-color: #598eca;
+    border-radius: 10px;
+}
+
+.navbar li {
+    font: bolder;
+}
+
+/* displaying carousel caption in correct location at top right */
+.carousel-caption {
+    right: 5%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    top: 1%;
+    left: 35%;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+/* carousel caption p tag has slightly dark background with white font and round edges*/
+.carousel-caption p {
+    background-color: rgb(0, 0, 0, 50%);
+    color: white;
+    border-radius: 25px;
+}
+
+/* add nav-items border */
+.nav-item:hover {
+    background-color: #598eca;
+    border-radius: 10px;
+}
+
+/* displaying carousel caption in correct location at top right */
+.carousel img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* make image container rounded edges */
+.carousel-inner {
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 26px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+/* about us page specific css */
+
+.showcase-image img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.showcase-paragraph {
+    background-color: #81aad9;
+    border-radius: 20px;
+    border: 2px rgba(0, 0, 0, 0.2) solid;
+}
+
+.margin-fix-about-us {
+    margin-bottom: 4.29rem;
+}
+
+.smalltext {
+    font-size: 0.1rem;
+}
+/* about us page specific css */
+
+/* contact us page */
+
+.contact-us-form {
+    background-color: #81aad9;
+    border-radius: 20px;
+    border: 2px rgba(0, 0, 0, 0.2) solid;
+}
+
+.contact-us-form {
+    font-weight: bold;
+}
+.margin-fix-contact-us {
+    margin-bottom: 19.4rem;
+}
+
+/* contact us page */
+
+/* school-map page */
+
+.map-header {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/* school-map page */
+
+/* login page */
+.margin-fix-login {
+    margin-top: 290px;
+    margin-bottom: 294px;
+}
+
+.input-group-text {
+    padding: 10px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+/* login page */
+
+/* faculty and staff */
+
+.accordion-body {
+    background-color: #81aad9;
+}
+
+.accordion div {
+    background-color: #81aad9;
+}
+
+.accordion button {
+    background-color: #81aad9;
+}
+/* faculty and staff */
