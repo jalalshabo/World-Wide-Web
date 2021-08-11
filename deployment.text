@@ -1,0 +1,16 @@
+Using Direct Admin
+1) Login to Direct Admin
+2) Access your applications and search for Laravel 6.2 
+3) Download and create appropriate path in server
+4) Once files have been download using FileZilla access your server through sftp 
+5) Download the GitHub files
+6) Go to path created by installation and move GitHub files to locations created by Laravel install
+6) Once complete the website will function as normal, but any pages required databases will not until the below steps
+
+Importing database using phpMyAdmin
+1) Go to GitHub and download the database template file which includes all necessary tables
+2) Go to phpMyAdmin instance on your server
+3) Click the import table
+4) Select the Database template file and upload it 
+5) Go to the root folder on your install folder and access the .env file 
+6) Update the update the DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD with the correct values as per your database which can be accessible from your direct admin page 
